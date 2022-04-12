@@ -60,11 +60,10 @@ header img{
 }
 
 .imagenFondo{
-    background-image: url(/imagenes/fondo_portada.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/imagenes/afiche2.jpg);
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: top;
-    width: 100%;
 }
 
 .inicioIntro{
