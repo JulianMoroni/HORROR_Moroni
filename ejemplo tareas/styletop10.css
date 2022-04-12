@@ -1,0 +1,75 @@
+* {  
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+} 
+
+.primeraFila{
+}
+
+.tarjeton1{
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.tarjeton1 p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tarjeton12-img{
+    padding: 0px 0px 30px 0px;
+    width: 300px;
+    height: 150px;
+}
+
+.tarjeton2{
+    background-color: blue;
+    height: 400px;
+    width: 300px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.tarjeton2 p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tarjeton3{
+    background-color: rgb(35, 161, 113);
+    height: 400px;
+    width: 200px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.tarjeton3 p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tarjeton3-img{
+    padding: 0px 0px 30px 0px;
+    width: 200px;
+    height: 150px;
+}
+
+.terceraFila{
+    background-color: turquoise;
+    margin-top: 20px;
+    width: 800px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

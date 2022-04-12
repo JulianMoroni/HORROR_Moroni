@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cosoInline{
+    display: flex;
+}
+
+.tarjeton{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.tarjeton__image{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+.tarjeton__title{
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 20px;
+    display: block;
+}
+
+.tarjeton__p{
+    size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(81, 81, 82);
+    padding: 20px;
+    display: block;
+}

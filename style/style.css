@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+header{
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav{
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+header a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header img{
+    width: 60px;
+    padding: 20px;
+    margin-right: 600px;
+}
+
+
+
+
+
+.portada{
+    background-color: brown;
+    width: 100%;
+}
+
+.portada h1{
+    font-size: 250px;
+    color: white;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.portada p{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 138px;
+    text-align: center;
+}
+
+.imagenFondo{
+    background-image: url(/imagenes/fondo_portada.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+}
+
+.inicioIntro{
+    background-color: rgb(0, 0, 0);
+}
+
+.introP{
+    color: white;
+    font-size: 18px;
+    padding: 300px 600px 300px 600px;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    padding: 30px;
+}
+
+footer li{
+    display: inline;
+    vertical-align: middle;
+}
+
+.footerText{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-right: 60px;
+}
+
+footer a{
+    margin-right: 10px;
+}
+
+
+
+
+
+.notaContenedor{
+    display: flex;
+    background-color: rgb(160, 160, 160);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.notaAutor{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.notaAutor p{
+    font-size: 16px;
+}
+
+.notaContenido{
+    margin-right: 200px;
+}
+
+.notaContenido h1{
+    color: red;
+    font-size: 80px;
+}
+
+.notaContenido p{
+    font-size: 22px;
+}
+
+.notaRecomendados{
+    background-color: rgb(56, 56, 56);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.notaRecomendados h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.notaRecomendados_flex{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.recomendado1{
+    background-color: beige;
+    text-align: center;
+}
+
+.recomendado1 img{
+    width: 350px;
+    height: 200px;
+}
+
+.recomendado1 h3{
+    margin: 20px 30px;
+}
+
+.recomendado1 button{
+    stroke: none;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.sorteoDestacado{
+    padding: 200px 200px 150px 200px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+}
+
+.sorteoDestacado h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.sorteoDestacado p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.sorteoDestacado button{
+    stroke: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+}
+
+.sorteoDestacado img{
+    height: 550px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.reglasSorteo{
+    display: flex;
+    gap: 60px;
+    padding: 200px;
+    background-color: rgb(41, 41, 41);
+}
+
+.reglasSorteo div{
+    color: white;
+    text-align: center;
+}
+
+.reglasSorteo img{
+    width: 100px;
+}
+
+.reglasSorteo div h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
