@@ -12,16 +12,21 @@ header{
     position: fixed;
     z-index: 1;
     width: 100%;
+    padding: 20px 200px 20px 200px;
 }
 
 nav{
-    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    align-content: center;
+    display: flex;
 }
 
 header li{
-    display: inline;
-    vertical-align: middle;
-    padding: 30px;
+    padding:  0px 15px;
 }
 
 header a{
@@ -31,49 +36,7 @@ header a{
 }
 
 header img{
-    width: 60px;
-    padding: 20px;
-    margin-right: 600px;
-}
-
-
-
-
-
-.portada{
-    background-color: brown;
-    width: 100%;
-}
-
-.portada h1{
-    font-size: 250px;
-    color: white;
-    padding-top: 250px;
-    text-align: center;
-}
-
-.portada p{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    padding-bottom: 138px;
-    text-align: center;
-}
-
-.imagenFondo{
-    background-image: url(/imagenes/afiche2.jpg);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: top;
-}
-
-.inicioIntro{
-    background-color: rgb(94, 233, 113);
-}
-
-.introP{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    padding: 300px 600px 300px 600px;
+    width: 40px;
 }
 
 
@@ -100,6 +63,54 @@ footer li{
 footer a{
     margin-right: 10px;
 }
+
+
+
+
+
+.portada{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.portada h1{
+    font-size: 250px;
+    color: white;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.portada p{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 138px;
+    text-align: center;
+}
+
+.imagenFondo{
+    background-image: url(/imagenes/fondo_portada.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.inicioIntro{
+    
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px 200px #000;
+}
+
+.introP{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 300px 500px 500px 500px;
+}
+
+
+
+
+
+
 
 
 
@@ -180,8 +191,8 @@ footer a{
 
 
 .sorteoDestacado{
-    padding: 200px 200px 150px 200px;
-    background-color: rgb(26, 26, 26);
+    padding: 150px 200px 150px 200px;
+    background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
 }
@@ -205,15 +216,16 @@ footer a{
 }
 
 .sorteoDestacado img{
-    height: 550px;
+    height: 520px;
     width: 600px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .reglasSorteo{
     display: flex;
     gap: 60px;
-    padding: 200px;
+    padding: 250px;
     background-color: rgb(41, 41, 41);
 }
 
